@@ -1,4 +1,4 @@
-site_name: Bolt.Local Docs
+site_name: ArkLight Docs
 site_dir: ../site
 theme:
   name: material
@@ -31,20 +31,16 @@ theme:
     repo: fontawesome/brands/github
   # logo: assets/logo.png
   # favicon: assets/logo.png
-repo_name: Bolt.Local
-repo_url: https://github.com/coleam00/bolt.new-any-llm
+repo_name: ArkLight
+repo_url: https://github.com/ai-open-developer/arklight
 edit_uri: ""
 
 extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/coleam00/bolt.new-any-llm
-      name: Bolt.Local
-    - icon: fontawesome/brands/discourse
-      link: https://thinktank.ottomator.ai/
-      name: Bolt.Local Discourse
-
+      link: https://github.com/ai-open-developer/arklight
+      name: ArkLight
 
 markdown_extensions:
   - pymdownx.highlight:

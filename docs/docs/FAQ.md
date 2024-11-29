@@ -1,6 +1,6 @@
 # FAQ
 
-### How do I get the best results with oTToDev?
+### How do I get the best results with ArkLight?
 
 - **Be specific about your stack**: If you want to use specific frameworks or libraries (like Astro, Tailwind, ShadCN, or any other popular JavaScript framework), mention them in your initial prompt to ensure Bolt scaffolds the project accordingly.
 
@@ -10,28 +10,19 @@
 
 - **Batch simple instructions**: Save time by combining simple instructions into one message. For example, you can ask oTToDev to change the color scheme, add mobile responsiveness, and restart the dev server, all in one go saving you time and reducing API credit consumption significantly.
 
-### How do I contribute to oTToDev?
+### How do I contribute to ArkLight?
 
-[Please check out our dedicated page for contributing to oTToDev here!](CONTRIBUTING.md)
+[Please check out our dedicated page for contributing to ArkLight here!](CONTRIBUTING.md)
 
-### Do you plan on merging oTToDev back into the official Bolt.new repo?
+### Do you plan on merging ArkLight back into the official Bolt.new repo?
 
 More news coming on this coming early next month - stay tuned!
 
-### What are the future plans for oTToDev?
-
-[Check out our Roadmap here!](https://roadmap.sh/r/ottodev-roadmap-2ovzo)
+### What are the future plans for ArkLight?
 
 Lot more updates to this roadmap coming soon!
 
-### Why are there so many open issues/pull requests?
-
-oTToDev was started simply to showcase how to edit an open source project and to do something cool with local LLMs on my (@ColeMedin) YouTube channel! However, it quickly
-grew into a massive community project that I am working hard to keep up with the demand of by forming a team of maintainers and getting as many people involved as I can.
-That effort is going well and all of our maintainers are ABSOLUTE rockstars, but it still takes time to organize everything so we can efficiently get through all
-the issues and PRs. But rest assured, we are working hard and even working on some partnerships behind the scenes to really help this project take off!
-
-### How do local LLMs fair compared to larger models like Claude 3.5 Sonnet for oTToDev/Bolt.new?
+### How do local LLMs fair compared to larger models like Claude 3.5 Sonnet for ArkLight/Bolt.new?
 
 As much as the gap is quickly closing between open source and massive close source models, you’re still going to get the best results with the very large models like GPT-4o, Claude 3.5 Sonnet, and DeepSeek Coder V2 236b. This is one of the big tasks we have at hand - figuring out how to prompt better, use agents, and improve the platform as a whole to make it work better for even the smaller local LLMs!
 

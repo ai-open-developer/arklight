@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Enhanced definitions -->
+  <defs>
+    <!-- Main gradient with more contrast -->
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4C1D95"/>
+      <stop offset="100%" style="stop-color:#7C3AED"/>
+    </linearGradient>
+    
+    <!-- Background gradient darker -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A"/>
+      <stop offset="100%" style="stop-color:#1E1B4B"/>
+    </linearGradient>
+    
+    <!-- Enhanced lightning glow filter -->
+    <filter id="lightningGlow" height="300%" width="300%" x="-100%" y="-100%">
+      <feGaussianBlur stdDeviation="3" result="glow"/>
+      <feMerge>
+        <feMergeNode in="glow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Intense electric effect -->
+    <filter id="intenseGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="saturate" values="2"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background shape -->
+  <path d="M100 80
+           C90 80, 80 90, 75 110
+           C70 130, 65 150, 70 170
+           C75 190, 90 205, 110 208
+           C130 211, 170 211, 190 208
+           C210 205, 225 190, 230 170
+           C235 150, 230 130, 225 110
+           C220 90, 210 80, 190 80
+           C170 80, 120 80, 100 80
+           Z" 
+        fill="url(#bgGradient)"
+        opacity="0.95"
+        filter="url(#lightningGlow)"/>
+  
+  <!-- Intense circuit patterns -->
+  <g stroke="#7C3AED" stroke-width="1.5" opacity="0.3">
+    <path d="M80 140 L120 130 L180 150 L220 140" fill="none">
+      <animate attributeName="opacity"
+               values="0.3;0.6;0.3"
+               dur="0.7s"
+               repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Main logo symbol -->
+  <g filter="url(#intenseGlow)">
+    <!-- Left side of 'A' -->
+    <path d="M85 220 L120 150 L140 100 L150 70" 
+          stroke="url(#techGradient)" 
+          stroke-width="12" 
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none">
+      <animate attributeName="stroke-dasharray" 
+               from="0,300" to="300,0"
+               dur="1.2s" 
+               fill="freeze"/>
+    </path>
+    
+    <!-- Right side of 'A' -->
+    <path d="M150 70 L160 100 L180 150 L215 220" 
+          stroke="url(#techGradient)" 
+          stroke-width="12" 
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none">
+      <animate attributeName="stroke-dasharray" 
+               from="0,300" to="300,0"
+               dur="1.2s" 
+               fill="freeze"/>
+    </path>
+    
+    <!-- Dynamic lightning crossbar -->
+    <path d="M110 140 L130 135 L170 145 L190 140" 
+          stroke="#FDB813" 
+          stroke-width="12" 
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          fill="none"
+          filter="url(#lightningGlow)">
+      <animate attributeName="stroke-dasharray" 
+               from="0,100" to="100,0"
+               dur="1s" 
+               fill="freeze"/>
+      <animate attributeName="opacity"
+               values="1;0.7;1"
+               dur="0.3s"
+               repeatCount="indefinite"/>
+    </path>
+  </g>
+  
+  <!-- Simplified lightning effects -->
+  <g>
+    <!-- Single main lightning bolt -->
+    <path d="M150 70 L152 105 L146 140 L154 175 L148 220" 
+          stroke="#FDB813" 
+          stroke-width="2.5"
+          fill="none"
+          filter="url(#lightningGlow)"
+          opacity="0.8">
+      <animate attributeName="opacity"
+               values="0.8;1;0.8"
+               dur="0.5s"
+               repeatCount="indefinite"/>
+    </path>
+    
+    <!-- Sparks -->
+    <g fill="#FDB813" filter="url(#intenseGlow)">
+      <path d="M150 90 L155 95 L153 100" opacity="0.8">
+        <animate attributeName="opacity"
+                 values="0.8;1;0.8"
+                 dur="0.4s"
+                 repeatCount="indefinite"/>
+      </path>
+      <path d="M150 170 L145 175 L147 180" opacity="0.8">
+        <animate attributeName="opacity"
+                 values="0.8;1;0.8"
+                 dur="0.4s"
+                 repeatCount="indefinite"
+                 begin="0.2s"/>
+      </path>
+    </g>
+  </g>
+  
+  <!-- Enhanced electric spark decorative elements -->
+  <g filter="url(#intenseGlow)">
+    <path d="M80 70 L85 75 L83 80" 
+          stroke="#FDB813" 
+          stroke-width="2"
+          fill="none"
+          opacity="0.8">
+      <animate attributeName="opacity"
+               values="0.8;1;0.8"
+               dur="0.5s"
+               repeatCount="indefinite"/>
+    </path>
+    <path d="M220 70 L215 75 L217 80" 
+          stroke="#FDB813" 
+          stroke-width="2"
+          fill="none"
+          opacity="0.8">
+      <animate attributeName="opacity"
+               values="0.8;1;0.8"
+               dur="0.5s"
+               repeatCount="indefinite"
+               begin="0.25s"/>
+    </path>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 [![ArkLight: AI-Powered Full-Stack Web Development in the Browser](./public/dramatic-logo-clean.svg)](https://bolt.new)
 
-# ArkLight: A Fork by Cole Medin' oTToDev
+# ArkLight: A Fork by Cole Medin's oTToDev
 
 This fork of Bolt.local/oTToDev (ArkLight) allows you to choose the LLM that you use for each prompt! Currently, you can use OpenAI, Anthropic, Ollama, OpenRouter, Gemini, LMStudio, Mistral, xAI, HuggingFace, DeepSeek, or Groq models - and it is easily extended to use any other model supported by the Vercel AI SDK! See the instructions below for running this locally and extending it to include more models.
 

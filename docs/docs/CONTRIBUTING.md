@@ -33,7 +33,7 @@ This project and everyone participating in it is governed by our Code of Conduct
 4. Submit a pull request
 
 ### ✨ Becoming a Core Contributor
-We're looking for dedicated contributors to help maintain and grow this project. If you're interested in becoming a core contributor, please fill out our [Contributor Application Form](https://forms.gle/TBSteXSDCtBDwr5m7).
+We're looking for dedicated contributors to help maintain and grow this project. If you're interested in becoming a core contributor, please contact me on thecodacus@gmail.com .
 
 ## Pull Request Guidelines
 

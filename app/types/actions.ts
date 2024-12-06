@@ -17,6 +17,16 @@ export interface StartAction extends BaseAction {
   type: 'start';
 }
 
-export type BoltAction = FileAction | ShellAction | StartAction;
+
+export interface ToolAction extends BaseAction {
+  type: 'tool';
+  agentId: string;
+  toolName: string;
+  parameters?: Record<string, string>;
+  result?: string;
+  processed?: boolean;
+}
+
+export type BoltAction = FileAction | ShellAction | StartAction | ToolAction;
 
 export type BoltActionData = BoltAction | BaseAction;
